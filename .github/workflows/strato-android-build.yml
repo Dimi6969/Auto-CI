@@ -12,7 +12,7 @@ on:
         required: false
         default: 'devRelease'
   schedule:
-    - cron: "0 0 29 * *"
+    - cron: "17 0 29 * *"
 
 jobs:
   strato_android_build:
