@@ -10,7 +10,7 @@ on:
       flavor:
         description: 'select flavor to build(default: mainline)'
         required: false
-        default: 'mainline'
+        default: 'devRelease'
   schedule:
     - cron: "0 0 1 * *"
 
