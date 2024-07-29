@@ -8,7 +8,7 @@ on:
         required: false
         default: 'master'
       flavor:
-        description: 'select flavor to build(default: mainline)'
+        description: 'select flavor to build(default: devRelease)'
         required: false
         default: 'devRelease'
   schedule:
