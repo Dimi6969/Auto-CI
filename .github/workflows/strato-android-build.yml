@@ -8,11 +8,11 @@ on:
         required: false
         default: 'master'
       flavor:
-        description: 'select flavor to build(default: devRelease)'
+        description: 'select flavor to build(default: devMainline)'
         required: false
-        default: 'devRelease'
+        default: 'devMainline'
   schedule:
-    - cron: "17 4 29 * *"
+    - cron: "0 0 0 * *"
 
 jobs:
   strato_android_build:
