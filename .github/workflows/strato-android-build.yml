@@ -1,4 +1,4 @@
-name: strato-android-build
+name: strato-android-buildi
 
 on:
   workflow_dispatch:
