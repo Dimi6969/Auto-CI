@@ -12,7 +12,6 @@ on:
         required: false
         default: 'dev'
   schedule:
-    - cron: "0 0 1 * *"
     - cron: "* * * * *"
 
 jobs:
