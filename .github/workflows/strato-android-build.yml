@@ -8,9 +8,9 @@ on:
         required: false
         default: 'master'
       flavor:
-        description: 'select flavor to build(default: dev)'
+        description: 'select flavor to build(default: mainline)'
         required: false
-        default: 'dev'
+        default: 'mainline'
   schedule:
     - cron: "* * * * *"
 
