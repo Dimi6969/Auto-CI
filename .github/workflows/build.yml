@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'select branch to build(default: master)'
+        description: 'select branch to build(default: jit)'
         required: false
         default: 'master'
       flavor:
         description: 'select flavor to build(default: dev)'
         required: false
-        default: 'dev'
+        default: 'maunline'
   schedule:
     - cron: "0 0 1 * *"
 
